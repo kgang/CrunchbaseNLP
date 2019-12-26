@@ -38,8 +38,8 @@ kiwisolver==1.1.0
 MarkupSafe==1.1.1
 matplotlib==3.1.2
 mistune==0.8.4
-mkl_fft==1.0.15
-mkl-service==2.3.0
+https://github.com/IntelPython/mkl_fft/archive/v1.0.15.tar.gz
+https://github.com/IntelPython/mkl-service/archive/v2.3.0.tar.gz
 more-itertools==8.0.2
 murmurhash==1.0.2
 mysqlclient==1.4.6
