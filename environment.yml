@@ -91,7 +91,6 @@ dependencies:
     - cycler==0.10.0
     - cymem==2.0.3
     - docutils==0.15.2
-    - en-core-web-sm==2.2.5
     - funcy==1.14
     - future==0.18.2
     - gensim==3.8.1
