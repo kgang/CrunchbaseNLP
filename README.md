@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kgang/CrunchbaseNLP/master?filepath=%2FCrunchbaseNLP.ipynb)
+
 ## Welcome to Kent's NLP analysis of Crunchbase's 2013 Snapshot!
 
 To get started, install a virtual environment using the requirements.txt file.
@@ -15,3 +17,7 @@ Concatenate all the sql files to execute in mysql shell. (Use different extensio
 Start the mysql shell with `mysql -u root -p --binary-mode=1` then create a database and select it. **NOTE: binary mode is necessary for parsing data in python.** `create database crunchdb; use crunchdb;`. Finally execute the data migration. `\. all_cb.sql1`.
 
 Alternatively, you can skip the data ingestion and pick up where I load in pickle files.
+
+### Online viewing
+
+View the notebook online through [Binder](#https://mybinder.org/v2/gh/kgang/CrunchbaseNLP/master?filepath=%2FCrunchbaseNLP.ipynb) or [nbviewer](#https://nbviewer.jupyter.org/github/kgang/CrunchbaseNLP/blob/master/CrunchbaseNLP.ipynb#topic=0&lambda=1&term=)
